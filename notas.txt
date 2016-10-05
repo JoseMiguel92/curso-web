@@ -1,0 +1,2 @@
+En js no hay tipos de datos, si no que hay var, que se puede comportar de cualquier manera.
+Los objetos son funciones.
