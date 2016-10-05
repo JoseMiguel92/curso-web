@@ -1,16 +1,19 @@
-//variables globales
-//var soyGlobal;
+window.onload =
+    function start(){
+        f1(f2);
+    }
+window.onkeydown = teclas;
 
-function start(){
-    var f = funcion1(4);
-
-    var f2 = f(3);
-
-    alert(f2);
+function f1(callback){
+    var x = 33;
+    alert(parseInt(x) + 6);
+    alert("Soy f1");
+    callback();
 }
 
-function funcion1(p){
-    return function(y){
-        return p+y;
-    }
+function f2(){
+    alert("soy f2");
+}
+function teclas(e){
+    alert(e.keyCode + " pulsado.");
 }
