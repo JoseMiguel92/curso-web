@@ -1,19 +1,15 @@
-window.onload =
-    function start(){
-        f1(f2);
-    }
-window.onkeydown = teclas;
+window.onload = start;
 
-function f1(callback){
-    var x = 33;
-    alert(parseInt(x) + 6);
-    alert("Soy f1");
-    callback();
-}
+function start(){
+   /*
+   var nodo = document.getElementById("ejemplo");
+    nodo.innerHTML;
+    //Devuelve el contenido del elemento con id EJEMPLO
+    */
+    var l = document.createElement("div");
+    l.innerHTML = "Hola soy un div creado de cero."
+    l.setAttribute("id","holamundo");
+    document.body.appendChild(l);
+    document.body.removeChild(l);
 
-function f2(){
-    alert("soy f2");
-}
-function teclas(e){
-    alert(e.keyCode + " pulsado.");
 }
