@@ -35,5 +35,7 @@ function number(x){
 }
 function addNumber(x){
     var display = document.getElementById("pantalla");
-    display.value += x;
+    if(!(display.value.length >= 9)){
+       display.value += x;
+    }
 }
