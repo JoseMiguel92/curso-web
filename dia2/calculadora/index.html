@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
 
     <head>
@@ -25,23 +25,35 @@
             <table>
                 <tr>
                     <td><button onclick="number(7)" class="number-button">7</button></td>
-                    <td><button onclick="number(8)"  class="number-button">8</button></td>
+                    <td><button onclick="number(8)" class="number-button">8</button></td>
                     <td><button onclick="number(9)" class="number-button">9</button></td>
+                    <td><button onclick="operacion('+')" class="number-button">+</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="number(4)"  class="number-button">4</button></td>
                     <td><button onclick="number(5)"  class="number-button">5</button></td>
                     <td><button onclick="number(6)"  class="number-button">6</button></td>
+                    <td><button onclick="operacion('-')" class="number-button">-</button></td>
                 </tr>
                 <tr>
                     <td><button onclick="number(1)"  class="number-button">1</button></td>
                     <td><button onclick="number(2)"  class="number-button">2</button></td>
                     <td><button onclick="number(3)"  class="number-button">3</button></td>
+                    <td><button onclick="operacion(*)" class="number-button">*</button></td>
                 </tr>
                 <tr>
                     <td></td>
                     <td><button onclick="number(0)"  class="number-button">0</button></td>
                     <td></td>
+                    <td><button onclick="operacion(/)" class="number-button">/</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button onclick="operacion(=)" class="number-button">=</button></td>
+                    <td><button onclick="decimal()" class="number-button">.</button></td>
+                    <td><button onclick="ce()" class="number-button">CE</button></td>
                 </tr>
             </table>
         </div>
