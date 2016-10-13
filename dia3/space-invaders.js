@@ -39,7 +39,6 @@ window.onload = function(){
 function stars(){
     display.fillStyle="#000";
     display.fillRect(0,0,width,height);
-
     var posX;
     var posY;
     var size;
