@@ -1,0 +1,12 @@
+html,body{
+    width: 100px;
+    height: 100px;
+    background: #eee;
+    margin:0;
+
+}
+.divNormal{
+    width: 200px;
+    height: 200px;
+    background: #000;
+}
