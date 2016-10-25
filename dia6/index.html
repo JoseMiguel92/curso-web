@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="App">
+    <head>
+        <meta charset="utf-8">
+        <title>Angular pagina 1</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="angular.min.js"></script>
+        <script src="app.js"></script>
+
+    </head>
+    <body ng-controller="mainController">
+       <input type="text" placeholder="Name" ng-model="usuario.Name">
+       <input type="text" placeholder="LastName" ng-model="usuario.Lastname">
+       <input type="text" placeholder="Alias" ng-model="usuario.Alias">
+
+       <button></button>
+        <div ng-repeat="x in usuarios">
+            {{x.Name}}
+        </div>
+    </body>
+</html>
